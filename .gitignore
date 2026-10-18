@@ -1,0 +1,14 @@
+# Office lock files (created while a .docx is open)
+~$*
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Local environment
+.env

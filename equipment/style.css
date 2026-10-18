@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 10px;
+    background: #c0c0c0;
+    color: #000;
+    font-family: Tahoma, "MS Sans Serif", sans-serif;
+    font-size: 14px;
+}
+
+a { color: #0000ee; }
+a:visited { color: #551a8b; }
+a:hover { color: #ff0000; }
+
+h1 { margin: 0; font-family: "Times New Roman", Tahoma, serif; font-size: 28px; }
+h2 { margin: 24px 0 6px; padding: 3px 6px; background: #000080; color: #fff; font-size: 15px; }
+hr { margin: 8px 0; }
+p { margin: 6px 0; }
+
+#page {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 14px;
+    border: 2px outset #eee;
+    background: #fff;
+}
+
+.subtitle { margin-bottom: 6px; }
+.current { font-weight: bold; color: #000; }
+.small { font-size: 12px; }
+.muted { color: #666; }
+.code { font-family: "Courier New", monospace; }
+.code-input { text-transform: uppercase; }
+.right { text-align: right; }
+.center { text-align: center; }
+.ok { color: #006600; font-weight: bold; }
+.warn { color: #996600; font-weight: bold; }
+.bad { color: #cc0000; font-weight: bold; }
+.overdue { background: #ffdddd; }
+.footer { text-align: center; }
+
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { padding: 4px 6px; border: 1px solid #808080; text-align: left; vertical-align: middle; }
+th { background: #d4d0c8; }
+th.right, td.right { text-align: right; }
+td.center { text-align: center; }
+
+input, select, button { font-family: inherit; font-size: 13px; }
+input, select { max-width: 100%; }
+button {
+    padding: 2px 10px;
+    border: 2px outset #eee;
+    background: #d4d0c8;
+    color: #000;
+    cursor: pointer;
+}
+button:active { border-style: inset; }
+button:disabled { color: #808080; cursor: not-allowed; }
+
+.flash { margin: 8px 0; padding: 6px 8px; border: 2px solid; font-weight: bold; }
+.flash-success { border-color: #006600; background: #ddffdd; color: #006600; }
+.flash-error { border-color: #cc0000; background: #ffdddd; color: #cc0000; }
+
+.filter { margin: 6px 0; }
+.borrow-form { white-space: nowrap; }
+.borrow-form select[name="member_id"] { width: 150px; }
+.form-table { width: auto; }
+.form-table th { width: 110px; }
